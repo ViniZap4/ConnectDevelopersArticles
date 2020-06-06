@@ -1,0 +1,40 @@
+.ArticlePage{
+  display: flex;
+  flex-direction: column;
+}
+
+.ArticlePageNavegation{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  position: fixed;
+  top:18vh;
+  left: 0%;
+  height: 70vh;
+  width: 15.3vw;
+  box-shadow: 0.6vmin 0.6vmin 1.8vmin #000;
+  background-color: rgba(0, 0, 0, 0.089);
+
+  /* background-color: rgb(255, 255, 255); */
+}
+.ArticlePageNavegation:hover{
+    background-color: rgba(221, 221, 221, 0.089);
+
+}
+
+.ArticlePageContent{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  margin-top: 9vh;
+  margin-left: 20vw;
+  
+  width: 75vw;
+  height: max-content;
+
+  font-size: 3.6vmin;
+
+
+}

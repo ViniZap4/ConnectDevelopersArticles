@@ -1,3 +1,30 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  transition: 0.45s;
+  font-family: jura;
+}
+
+@font-face{
+  font-family: jura;
+  src: url(./fonts/Jura/Jura-VariableFont_wght.ttf);
+}
+
+@font-face{
+  font-family: belgrano;
+  src: url(./fonts/Belgrano/Belgrano-Regular.ttf);
+}
+
+@font-face{
+  font-family: Merienda;
+  src: url(./fonts/Merienda/Merienda-Regular.ttf);
+}
+
+@font-face{
+  font-family: Radley;
+  src: url(./fonts/Radley/Radley-Regular.ttf);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +32,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #eeeeee;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+li{
+  list-style: none;
+}
+a{ text-decoration: none; }
+
+b{ font-weight: 900; color:#411a75;   }
+
+i{ 
+  color:#411a75;
+  font-family: Radley;
+}
+
+::selection{
+  color: #fff;
+  background-color: #411a75;
+}
+
+/* -------- scroll bar --------- */
+
+::-webkit-scrollbar              {
+  background-color: transparent;
+  max-width: 0.54vw;
+  max-height: 0.6vh;
+  cursor: pointer;
+
+}
+::-webkit-scrollbar-button       {
+  max-height: 0%;
+}
+::-webkit-scrollbar-track        {
+  background-color: #3f174e;
+  cursor: pointer;
+}
+::-webkit-scrollbar-track-piece  {
+  background-color: #252525;
+  cursor: pointer;
+
+}
+::-webkit-scrollbar-thumb        {
+  background-color: #461a58;
+  
+
+  
+}
+::-webkit-scrollbar-corner       {
+  background-color: #461aaa;
+}
+::-webkit-resizer                {
+  background-color: #4a3752;
 }

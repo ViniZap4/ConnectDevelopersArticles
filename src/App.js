@@ -1,13 +1,11 @@
 import React from 'react'; // importa o react 
 
-import './App.css'; // importa o css
+//import route
+import Router from './router'
 
-function App() { // cria uma função chamada App
+
+export default  function App() { // cria uma função chamada App
   return ( // indica seu retorno
-    <div className="App"> {/* seu retorno é um elemeto html */}
-      Hello World!!!
-    </div>
+    <Router />
   ); // close 
 } // close App()
-
-export default App; // e exporta como padrão o App() 

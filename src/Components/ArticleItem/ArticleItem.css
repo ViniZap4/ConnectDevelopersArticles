@@ -1,0 +1,67 @@
+.ArticleItem{
+  display: flex;
+  flex-direction: column;
+  margin: 1.8vh 1.8vw;
+
+  flex: 1 1;
+  min-width: 25.2vw;
+
+  cursor: pointer;
+  
+}
+.ArticleItem:hover{
+  box-shadow: 0.6vmin 0.6vmin 1.2vmin #000;
+  border-radius: 0vmin;
+  background-color: rgb(255, 255, 255);
+  transform: scale(1.08);
+}
+/* ----------- title style ----------- */
+.ArticleItemAreaTitle{
+  display: flex;
+  flex-direction: row;
+}
+
+.ArticleItem:hover .ArticleItemAreaTitle{
+  background-color: #411a75;
+  
+
+}
+
+.ArticleItemTitle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.9vh 0.9vw;
+  font-size: 3.6vmin;
+  font-family: Radley;
+  color: #000;
+}
+.ArticleItem:hover .ArticleItemTitle {
+  color: #fff;
+}
+.ArticleItem .ArticleItemTitle span{
+  /* font-size: 0px; */
+  display: flex;
+  font-size: 1.8vmin;
+  transform: scale(0);
+  margin-right: 0.36vw;
+  color: #fff;
+
+}
+.ArticleItem:hover .ArticleItemTitle span{
+  justify-items: center;
+  transform: scale(1);
+  font-size: 2.52vmin;
+}
+/* ----------- content style ----------- */
+
+.ArticleItemAreaContent{
+  display: flex;
+  flex-direction: column;
+  
+  padding: 0.9vh 0.9vw;
+}
+
+.ArticleItem:hover .ArticleItemAreaContent{
+  background-color: #ccc;
+} 

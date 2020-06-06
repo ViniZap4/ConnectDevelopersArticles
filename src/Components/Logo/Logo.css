@@ -1,0 +1,23 @@
+.Logo{
+  display: flex;
+
+
+  width: 6vmin;
+  height:6vmin;
+  
+  background-color: teal;
+  overflow: hidden;
+}
+
+.LogoIcon{
+  display: flex;
+  
+  width: 100%;
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-color: rgb(103, 8, 133);
+}
