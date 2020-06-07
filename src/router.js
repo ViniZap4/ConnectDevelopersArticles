@@ -6,7 +6,7 @@ import Home from './page/home/Home'
 import ProgrammingLogic from './page/ProgrammingLogic/ProgrammingLogic'
 import POO from './page/POO/POO'
 import IntroductionJava from './page/IntroductionJava/IntroductionJava'
-import AboutConnecDevelopers from './page/AboutConnecDevelopers/AboutConnecDevelopers'
+import AboutConnectDevelopers from './page/AboutConnectDevelopers/AboutConnecDevelopers'
 import Help from './page/Help/Help'
 
 
@@ -19,7 +19,7 @@ export default function src(){
         <Route path="/ProgrammingLogic" exact component={ProgrammingLogic} />
         <Route path="/POO" exact component={POO} />
         <Route path="/IntroductionJava" exact component={IntroductionJava} />
-        <Route path="/AboutConnecDevelopers" exact component={AboutConnecDevelopers} />
+        <Route path="/AboutConnectDevelopers" exact component={AboutConnectDevelopers} />
         <Route path="/Help" exact component={Help} />
 
 

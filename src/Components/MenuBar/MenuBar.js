@@ -34,7 +34,7 @@ export default function MenuBar(props) {
         <ItemLinkMenu href="/IntroductionJava" title="Aprendendo Java" >
           Introdução a java
         </ItemLinkMenu>
-        <ItemLinkMenu href="/AboutConnecDevelopers" title="ConnectDevelopres, quem somos?" >
+        <ItemLinkMenu href="/AboutConnectDevelopers" title="ConnectDevelopres, quem somos?" >
           Sobre ConnectDevelopers
         </ItemLinkMenu>
         <ItemLinkMenu href="/Help" title="Quer ajuda?" >

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './AboutConnecDevelopers.css'
+import './AboutConnectDevelopers.css'
 
 //import Components
 import CreatePage from '../../Components/CreatePage/CreatePage'
@@ -8,12 +8,12 @@ import ArticlePage from '../../Components/ArticlePage/ArticlePage'
 
 import { Title, SubTitle, Text, LinkReference } from '../../Components/TextContent/TextContent'
 
-export default function AboutConnecDevelopers() {
+export default function AboutConnectDevelopers() {
   return (
     <CreatePage name="AboutConnecDevelopersPage">
       <ArticlePage title={<>
-        <LinkReference title="AboutConnecDevelopers">
-          Sobre ConnecDevelopers
+        <LinkReference title="AboutConnectDevelopers">
+          Sobre Connect Developers
         </LinkReference>
         <LinkReference title="whoWeAre">
             Quem Somos?
@@ -22,8 +22,8 @@ export default function AboutConnecDevelopers() {
           O que fazemos?
         </LinkReference>
       </>}>
-      <Title title="AboutConnecDevelopers">
-         Sobre ConnecDevelopers
+      <Title title="AboutConnectDevelopers">
+         Sobre ConnectDevelopers
       </Title>
       <SubTitle title="whoWeAre">
         Quem Somos?
