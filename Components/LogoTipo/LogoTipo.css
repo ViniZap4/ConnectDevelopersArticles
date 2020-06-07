@@ -1,0 +1,22 @@
+.LogoTipo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  cursor: pointer;
+}
+.LogoTipoAnimateFistWord,
+.LogoTipoAnimateContent{
+  display: flex;
+  flex-direction: row;
+  /* text-shadow: 0.36vmin 0.36vmin 0.9vmin rgba(0, 0, 0, 0.678); */
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .LogoTipoAnimateContent{
+    display: none;
+  }
+}

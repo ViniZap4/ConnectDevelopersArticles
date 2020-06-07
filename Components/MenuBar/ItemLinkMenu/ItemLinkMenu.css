@@ -1,0 +1,39 @@
+.ItemLinkMenu{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  
+  margin: 0.9vh 0.9vw;
+  padding: 0.6vmin 1.26vmin;
+
+  font-size: 2.7vmin;
+  
+  border-radius: 3vmin;
+  user-select: none;
+  cursor: pointer;
+}
+.ItemLinkMenu:hover{
+  
+  transform: scale(1.05);
+
+  background-color: #411a75;
+  box-shadow: 0.6vmin 0.6vmin 2.16vmin #000;
+  border-radius: 0vmin;
+
+}
+.ItemLinkMenu a {
+  color: #fff;
+  font-size: 2.16vmin;
+  font-family: Merienda;
+
+  
+}
+
+
+@media only screen and (max-width: 900px) {
+  .ItemLinkMenu a{
+    font-size: 1.8vmin;
+  }
+}
+
+

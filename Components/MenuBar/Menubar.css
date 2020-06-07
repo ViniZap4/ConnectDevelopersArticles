@@ -1,0 +1,29 @@
+.MenuBar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  align-items: center;
+  justify-content: space-around;
+
+  max-width: 100vw;
+
+  position: sticky;
+  top:0px;
+
+ 
+  margin-top: 2px;
+}
+.areaLogo{
+  display: flex;
+  flex-direction: row;
+}
+
+.MenuBar ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+  align-items: center;
+
+}
