@@ -1,0 +1,28 @@
+#Home{
+  flex-wrap: wrap;
+  align-items: center;
+  color:#000; 
+}
+
+.HomeArticles{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 90vw;
+
+}
+
+
+.articlesArea{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .HomeArticles {
+    width: 100vw;
+ 
+  }
+}
