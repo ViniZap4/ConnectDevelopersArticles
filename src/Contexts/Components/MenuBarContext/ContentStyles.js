@@ -76,7 +76,12 @@ export const ItemLinkMenuDefault = {
 }
 export const ItemLinkMenuInScroll = {
   hover:{
-    backgroundColor:" #6d18a2",
+    // backgroundColor:" #6d18a2",
+    backgroundColor:"blueviolet",
+    padding:"1.26vmin 1.26vmin",
+    margin: "0vh 0.9vw",
+    transform: "scale(1)",
+    boxShadow:"none"
   },a:{
     color:"#fff",
   }

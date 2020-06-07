@@ -21,9 +21,9 @@ export function SubTitle(props){
 
 export function Text(props){
   return(
-    <h3 className="TextContent">
+    <p className="TextContent">
       {props.children}
-    </h3>
+    </p>
   )
 }
 

@@ -28,16 +28,16 @@ export default function MenuBar(props) {
         <ItemLinkMenu href="ProgrammingLogic" title="Lógica de programação" >
           Lógica de programação
         </ItemLinkMenu>
-        <ItemLinkMenu href="#" title="Programação Orientado a Objeto" >
+        <ItemLinkMenu href="/POO" title="Programação Orientado a Objeto" >
           POO
         </ItemLinkMenu>
-        <ItemLinkMenu href="#" title="Aprendendo Java" >
+        <ItemLinkMenu href="/IntroductionJava" title="Aprendendo Java" >
           Introdução a java
         </ItemLinkMenu>
-        <ItemLinkMenu href="#" title="ConnectDevelopres, quem somos?" >
+        <ItemLinkMenu href="/AboutConnecDevelopers" title="ConnectDevelopres, quem somos?" >
           Sobre ConnectDevelopers
         </ItemLinkMenu>
-        <ItemLinkMenu href="#" title="Quer ajuda?" >
+        <ItemLinkMenu href="/Help" title="Quer ajuda?" >
           Ajuda
         </ItemLinkMenu>
 

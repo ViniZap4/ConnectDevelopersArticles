@@ -20,8 +20,14 @@ export default function Home(){
           Artigos recentes:
         </SubTitle>
         <div className="articlesArea">
-          <ArticleItem title="Title Test View" href="/ProgrammingLogic"> 
+          <ArticleItem title="Lógica de programação" href="/ProgrammingLogic"> 
             <Text> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Text>
+          </ArticleItem>
+          <ArticleItem title="Poo" href="/POO"> 
+            <Text> Entenda mais sobre Poo - programação oriatada a objeto. </Text>
+          </ArticleItem>
+          <ArticleItem title="Introduçâo a Java" href="/IntroductionJava"> 
+            <Text> Introduçâo a java, Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Text>
           </ArticleItem>
           <ArticleItem title="Title Test View" href="/ProgrammingLogic"> 
             <Text> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Text>
@@ -29,14 +35,8 @@ export default function Home(){
           <ArticleItem title="Title Test View" href="/ProgrammingLogic"> 
             <Text> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Text>
           </ArticleItem>
-          <ArticleItem title="Title Test View" href="/ProgrammingLogic"> 
-            <Text> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Text>
-          </ArticleItem>
-          <ArticleItem title="Title Test View" href="/ProgrammingLogic"> 
-            <Text> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Text>
-          </ArticleItem>
-          <ArticleItem title="Title Test View" href="/ProgrammingLogic"> 
-            <Text> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Text>
+          <ArticleItem title="Sobre ConnecDevelopers" href="/AboutConnecDevelopers"> 
+            <Text> Quem Somos?, O que fazemos?, entenda mais sobre nós. </Text>
           </ArticleItem>  
         </div>
       </div>

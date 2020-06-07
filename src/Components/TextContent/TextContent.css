@@ -31,6 +31,7 @@
 .LinkReferenceText{
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   font-size: 2.16vmin;
   margin: 0.6vmin 0.6vw;
   padding: 0.6vmin 0.6vmin;
@@ -45,7 +46,7 @@
 }
 .LinkReferenceText span{
   color:#fff;
-  font-size: 0vmin;
+  font-size: 1.8vmin;
   margin-right: 0.36vw;
   transform: scale(0);
 }

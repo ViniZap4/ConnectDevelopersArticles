@@ -57,10 +57,11 @@
   display: flex;
   flex-direction: column;
   background-color: #ccc;
-
+  height: 100%;
   padding: 0.9vh 0.9vw;
 }
 
 .ArticleItem:hover .ArticleItemAreaContent{
   background-color: rgb(233, 233, 233);
+  
 }
