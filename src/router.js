@@ -3,7 +3,7 @@ import { BrowserRouter, Switch,Route } from 'react-router-dom'
 
 // import pages
 import Home from './page/home/home'
-import ProgrammingLogic from './pages/ProgrammingLogic/ProgrammingLogic'
+import ProgrammingLogic from './page/ProgrammingLogic/ProgrammingLogic'
 
 export default function src(){
   return(
@@ -11,7 +11,6 @@ export default function src(){
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/ProgrammingLogic" exact component={ProgrammingLogic} />
-       
       </Switch>
     </BrowserRouter>
   );
