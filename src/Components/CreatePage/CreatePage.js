@@ -53,6 +53,7 @@ function PageContent(props) {
      setStyleLogoTipo(styleLogoTipoInScroll)
      setItemLinkMenu(ItemLinkMenuInScroll)
     }
+    window.scrollTo(0,1)
   }
 
   return (
