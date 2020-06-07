@@ -37,7 +37,7 @@ export default function MenuBar(props) {
         <ItemLinkMenu href="#" title="ConnectDevelopres, quem somos?" >
           Sobre ConnectDevelopers
         </ItemLinkMenu>
-        <ItemLinkMenu href="/help" title="Quer ajuda?" >
+        <ItemLinkMenu href="#" title="Quer ajuda?" >
           Ajuda
         </ItemLinkMenu>
 
