@@ -13,7 +13,7 @@ export default  function IntroductionJava() {
     <CreatePage name="JavaPage">
       <ArticlePage title={<>
         <LinkReference title="IntroductioJava">
-        Introduçâo a Java
+        Introduçâo a Java teste boladao
         </LinkReference>
         <LinkReference title="SubTitleView">
           SubTitleView
