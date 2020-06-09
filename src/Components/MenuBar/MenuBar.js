@@ -21,7 +21,7 @@ export default function MenuBar(props) {
       <LogoTipo />
       </div>
       <ul>
-
+        
         <ItemLinkMenu href="/" title="Inicio" >
           Home
         </ItemLinkMenu>
@@ -37,9 +37,7 @@ export default function MenuBar(props) {
         <ItemLinkMenu href="/AboutConnectDevelopers" title="ConnectDevelopres, quem somos?" >
           Sobre ConnectDevelopers
         </ItemLinkMenu>
-        <ItemLinkMenu href="/Help" title="Quer ajuda?" >
-          Ajuda
-        </ItemLinkMenu>
+        
 
 
       </ul>

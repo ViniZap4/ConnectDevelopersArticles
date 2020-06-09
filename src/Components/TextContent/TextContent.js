@@ -21,7 +21,7 @@ export function SubTitle(props){
 
 export function Text(props){
   return(
-    <p className="TextContent">
+    <p className="TextContent" style={{marginLeft:props.spacing}}>
       {props.children}
     </p>
   )
@@ -31,7 +31,7 @@ export function Text(props){
 
 export function LinkReference(props){
   return(
-    <a href={`#${props.title}`} className="LinkReferenceText" >
+    <a href={`#${props.title}`} className="LinkReferenceText"  >
       <span>➤</span> {props.children}
     </a>
   )

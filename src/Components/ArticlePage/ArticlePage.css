@@ -16,8 +16,10 @@
   box-shadow: 0.6vmin 0.6vmin 1.8vmin #000;
   background-color: rgba(0, 0, 0, 0.089);
 
+
   /* background-color: rgb(255, 255, 255); */
 }
+
 .ArticlePageNavegation:hover{
     background-color: rgba(221, 221, 221, 0.089);
 

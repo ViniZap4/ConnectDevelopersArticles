@@ -9,6 +9,8 @@ import ArticlePage from '../../Components/ArticlePage/ArticlePage'
 import { Title, SubTitle, Text, LinkReference } from '../../Components/TextContent/TextContent'
 
 export default  function IntroductionJava() {
+  let spacing = "2.7vmin"
+
   return (
     <CreatePage name="JavaPage">
       <ArticlePage title={<>
@@ -101,23 +103,24 @@ export default  function IntroductionJava() {
         Configurando seu ambiente de desenvolvimento Java
       </SubTitle>
       <Text>
-        Antes de tudo você vai precisar fazer o download da JDK que esta disponivel no site da oracle<a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html"> aqui</a>
+        Antes de tudo você vai precisar fazer o download da JDK que esta disponivel no site da oracle<a target="_blank" rel="noreferrer noopener" title="Dowload java" href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html">aqui</a>
       </Text>
       <Text>
-        Agora, baixe o <a href="https://spring.io/tools">eclipse</a>
+        Agora, baixe o <a target="_blank" rel="noreferrer noopener" title="Dowload eclipse" href="https://spring.io/tools">eclipse</a>
       </Text>
       <Text>
         Agora que você baixou o eclipse, vamos configura-lo:
       </Text>
-      <Text>
+      <Text spacing={spacing}>
         • Ative o Eclipse clicando duas vezes em eclipse.exe (ou no executável equivalente em sua plataforma).
-        <p></p>
+      </Text>
+      <Text spacing={spacing}>  
         • Clique em Janela > Preferências > Java > JREs instalados. Figura 1 mostra esta seleção destacada na janela de configuração do Eclipse para o JRE.
       </Text>
-      <Text>
+      <Text spacing={spacing}>
         • O Eclipse aponta para um JRE instalado. Você deve usar o JRE que transferiu por download com o JDK. Se o Eclipse não detectar automaticamente o JDK instalado, clique em Incluir… e, na próxima caixa de diálogo, clique em VM padrão e clique em Avançar.
       </Text>
-      <Text>
+      <Text spacing={spacing}>
         • Especifique o diretório inicial do JDK (como C:\home\jdk1.8.0_60 em Windows) e clique em Concluir.
       </Text>
       <Text>

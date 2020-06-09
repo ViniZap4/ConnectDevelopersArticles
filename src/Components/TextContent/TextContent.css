@@ -21,11 +21,27 @@
 .TextContent{
   color: #000000;
   align-self: flex-start;
-  margin: 0.9vh 0vw;
+  margin: 0.45vh 0vw;
+  margin-left: 1.26vmin;
   font-size: 2.7vmin;
   text-align: justify;
   font-weight: 300;
   font-family: belgrano;
+}
+
+.TextContent a {
+  padding: 0.45vmin;
+  font-weight: 900;
+  color: #411a75;
+  text-decoration: underline;
+}
+.TextContent a:hover {
+  color: #fff;
+  background-color: #411a75;
+  box-shadow: 0.6vmin 0.6vmin 1.26vmin #000;
+  transform: scale(1.1);
+  text-decoration: none;
+  border-radius: 0.27vmin;
 }
 
 .LinkReferenceText{
@@ -37,6 +53,9 @@
   padding: 0.6vmin 0.6vmin;
   color: #000;
   font-family: Merienda;
+  
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 .LinkReferenceText:hover{
   background-color: #411a75;
@@ -54,4 +73,5 @@
 .LinkReferenceText:hover span{
   font-size: 2.16vmin;
   transform: scale(1);
+ 
 }
