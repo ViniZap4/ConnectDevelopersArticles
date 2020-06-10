@@ -23,18 +23,21 @@ export const styleMenuBarInScroll = {
 // ------- Style Logo component
 
 export const styleLogoDefault = {
-  width: "6vmin",
-  height:"6vmin",
+  width: "6.3vmin",
+  height:"6.3vmin",
   margin: "0.18vh  0.9vw",
-  boxShadow: "0.6vmin 0.6vmin 1.8vmin #000"
+  // boxShadow: "0.6vmin 0.6vmin 1.8vmin #000"
 }
 
 export const styleLogoInScroll = {
-  width: "4.5vmin",
-  height:"4.5vmin",
+  width: "5.4vmin",
+  height:"5.4vmin",
   borderRadius: "2.7vmin",
-  border: "0.18vmin solid #000",
-  margin: "0.9vh  0.36vw"
+  // border: "0.18vmin solid #000",
+  margin: "0.9vh  0.36vw",
+  backgroundColor:"#fff",
+  animation: "rotate 54s linear infinite",
+  boxShadow: "0vmin 0vmin 0.9vmin  #fff"
 }
 
 

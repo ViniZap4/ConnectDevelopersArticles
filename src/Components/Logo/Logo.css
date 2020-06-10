@@ -2,10 +2,10 @@
   display: flex;
 
 
-  width: 6vmin;
-  height:6vmin;
+  width: 12vmin;
+  height:12vmin;
   
-  background-color: teal;
+  /* background-color: teal; */
   overflow: hidden;
 }
 
@@ -18,6 +18,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  background-color: rgb(103, 8, 133);
+  
+  /* background-color: rgb(103, 8, 133); */
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Logo.css'
 
-import LogoIcon from '../../imagens/icons/logo/icon.png'
+import LogoIcon from '../../imagens/icons/logo/connectDev.png'
 
 //import Context
 import {useMenuBar} from '../../Contexts/Components/MenuBarContext/MenuBarContext'
