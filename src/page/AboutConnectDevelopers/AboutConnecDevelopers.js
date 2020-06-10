@@ -29,13 +29,13 @@ export default function AboutConnectDevelopers() {
         Quem Somos?
       </SubTitle>
       <Text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor elit ac ligula sollicitudin, sit amet ultricies erat lobortis. Ut felis diam, pharetra a viverra eget, molestie eu turpis. Phasellus non ipsum massa. Nullam ligula purus, tempor sed luctus euismod, aliquet condimentum magna. Curabitur faucibus ex et enim lobortis volutpat eu eu enim. Vestibulum tincidunt viverra ipsum vel condimentum. Fusce vulputate condimentum libero vestibulum varius. Pellentesque ut mi tempor nisl elementum hendrerit et sed nisl. Suspendisse molestie suscipit dolor nec ullamcorper. Aliquam quis interdum mi.
+        Somos uma equipe que procuramos disponibilizar conceitos em artigos relacionados a programação.
       </Text>
       <SubTitle title="whatWeDo">
         O que fazemos?
       </SubTitle>
       <Text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor elit ac ligula sollicitudin, sit amet ultricies erat lobortis. Ut felis diam, pharetra a viverra eget, molestie eu turpis. Phasellus non ipsum massa. Nullam ligula purus, tempor sed luctus euismod, aliquet condimentum magna. Curabitur faucibus ex et enim lobortis volutpat eu eu enim. Vestibulum tincidunt viverra ipsum vel condimentum. Fusce vulputate condimentum libero vestibulum varius. Pellentesque ut mi tempor nisl elementum hendrerit et sed nisl. Suspendisse molestie suscipit dolor nec ullamcorper. Aliquam quis interdum mi.
+        Desenvolvemos uma plataforma de aprendizado para desenvolvedores de sistemas baseando-se nas linguagens de programação aprendidas no decorrer do nosso curso até o momento. Ao final do projeto, a equipe pretende produzir o prototipo de um website didático que servirá de guia para programadores iniciantes e auxiliará o grupo com melhor entendimento das estruturas aprendidas em matérias do presente semestre como a organização e análise de interfaces, entendimento do usuário, divisão do grupo por uma metodologia de negócios (BPM) e organização de um projeto com base nas estruturas da Engenharia de Software.
       </Text>
     </ArticlePage>
   </CreatePage>
