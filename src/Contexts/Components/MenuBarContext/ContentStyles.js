@@ -36,8 +36,8 @@ export const styleLogoInScroll = {
   // border: "0.18vmin solid #000",
   margin: "0.9vh  0.36vw",
   backgroundColor:"#fff",
-  animation: "rotate 54s linear infinite",
-  boxShadow: "0vmin 0vmin 0.9vmin  #fff"
+  animation: "rotate 63s linear infinite",
+  boxShadow: "0vmin 0vmin 0.63vmin  #fff"
 }
 
 

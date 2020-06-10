@@ -24,13 +24,13 @@ export default function Home(){
             <Text> O que é Lógica de Programação? , a <b> lógica de programação </b> é a capacidade que todo programador precisa... </Text>
           </ArticleItem>
           <ArticleItem title="Poo" href="/POO"> 
-            <Text> Entenda mais sobre Poo - programação oriatada a objeto. </Text>
+            <Text> Entenda mais sobre Poo - programação oriatada a objeto seus Atributos, Herança, Encapsulamento, Polimorfismo.</Text>
           </ArticleItem>      
           <ArticleItem title="Introduçâo a Java" href="/IntroductionJava"> 
             <Text> Originalmente desenvolvida por uma equipe de desenvolvedores liderada por James Gosling na Sun Microsystems... </Text>
           </ArticleItem>
           <ArticleItem title="Sobre ConnecDevelopers" href="/AboutConnectDevelopers"> 
-            <Text> Quem Somos?, O que fazemos?,...  <br /> entenda mais sobre nós. </Text>
+            <Text> Quem Somos?, O que fazemos?,...  <br /> entenda mais sobre nós.  Desenvolvemos uma plataforma de aprendizado... </Text>
           </ArticleItem>  
         </div>
       </div>
