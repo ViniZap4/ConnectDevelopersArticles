@@ -25,8 +25,7 @@ export default function Home(){
           </ArticleItem>
           <ArticleItem title="Poo" href="/POO"> 
             <Text> Entenda mais sobre Poo - programação oriatada a objeto. </Text>
-          </ArticleItem>
-          
+          </ArticleItem>      
           <ArticleItem title="Introduçâo a Java" href="/IntroductionJava"> 
             <Text> Originalmente desenvolvida por uma equipe de desenvolvedores liderada por James Gosling na Sun Microsystems... </Text>
           </ArticleItem>
