@@ -43,8 +43,9 @@
 .ArticlePageNavegationTitle{
   display: flex;
   justify-self: flex-start;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
+  
 
   
   background-color: #411a75;
@@ -52,7 +53,17 @@
   font-size: 0vmin;
   width: 100%;
   border-radius: 0vmin 0.9vmin 0vmin 0vmin ;
+  cursor: pointer;
   font-family: Merienda;
+}
+
+.ArticlePageNavegationTitle .icon{
+  transform: scale(0); 
+}
+
+.ArticlePageNavegationTitle:hover .icon{
+  transform: scale(1);
+  margin-right: 0.36vw;
 }
 
 .ArticlePageNavegationHover,

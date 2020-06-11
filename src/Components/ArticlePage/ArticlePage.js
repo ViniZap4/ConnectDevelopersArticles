@@ -50,7 +50,7 @@ export default function ArticlePage(props) {
     <div className="ArticlePage">
       <div className={stylePageNavigation}  onMouseLeave={closePageNavigation} onClick={openPageNavigation}>
         <div className="ArticlePageNavegationTitle" style={stylePageNavigationTitle} onClick={closePageNavigation}>
-          ⋘ fechar Navegação por titulo 
+          <span className="icon"> ⋘ </span> fechar Navegação por titulo 
         </div>
         <div className="ArticlePageNavegationHoverAnimation" style={styleOpenIcon}> ⋙ </div>
         <div className="ArticlePageNavegationHover" style={styleOpenIcon}> ⋙  </div>
