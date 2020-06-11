@@ -67,6 +67,20 @@ i{
     transform: rotate(360deg);
   }
 }
+@keyframes openLeftArticlePageNavegationHover{
+  to{
+    text-shadow: 0vmin 0vmin 3.6vmin #fff;
+    /* transform: scale(0.9); */
+    left:  0.63vw;
+    opacity: 0.36;
+    /* transform-origin: 3vmin 0vmin; */
+  }from{
+    /* transform-origin: 0vmin 0vmin; */
+    opacity: 1;
+    text-shadow: 0vmin 0vmin 0.36vmin #fff;
+    /* transform: scale(1); */
+  }
+}
 
 /* -------- scroll bar --------- */
 

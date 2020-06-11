@@ -17,7 +17,7 @@ export default function ProgrammingLogic(){
     <CreatePage name="ProgrammingLogic">
       <ArticlePage title={<>
         <LinkReference title="ProgrammingLogicTitle">
-          Lógica de <br /> Programação
+          Lógica de Programação
         </LinkReference>
         <LinkReference title="introduction">
           O que é?

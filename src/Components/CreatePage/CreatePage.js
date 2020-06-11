@@ -18,8 +18,10 @@ import {
   ItemLinkMenuDefault,
   ItemLinkMenuInScroll
 } from '../../Contexts/Components/MenuBarContext/ContentStyles' 
-import MenuBarProvider from '../../Contexts/Components/MenuBarContext/MenuBarContext'
 
+//import provider 
+import MenuBarProvider from '../../Contexts/Components/MenuBarContext/MenuBarContext'
+import ArticlePageNavigationProvider from '../../Contexts/Components/ArticlePageNavigation/ArticlePageNavigationContext'
 
 function PageContent(props) {
   
@@ -69,9 +71,11 @@ function PageContent(props) {
 export default function CreatePage(props){
   return(
     <MenuBarProvider>
-      <PageContent name={props.name}>
-        {props.children}
-      </PageContent>
+      <ArticlePageNavigationProvider>
+        <PageContent name={props.name}>
+          {props.children}
+        </PageContent>
+      </ArticlePageNavigationProvider>
     </MenuBarProvider>
   )
 }

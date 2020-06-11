@@ -37,7 +37,7 @@ export const styleLogoInScroll = {
   margin: "0.9vh  0.36vw",
   backgroundColor:"#fff",
   animation: "rotate 63s linear infinite",
-  boxShadow: "0vmin 0vmin 0.63vmin  #fff"
+  boxShadow: "0vmin 0vmin 0.45vmin  #fff"
 }
 
 

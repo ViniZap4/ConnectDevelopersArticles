@@ -6,24 +6,88 @@
 .ArticlePageNavegation{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   flex-wrap: nowrap;
   position: fixed;
   top:18vh;
   left: 0%;
   height: 70vh;
-  width: 15.3vw;
+  width: 5.4vmin;
+
+  background-color: #411a75;
   box-shadow: 0.6vmin 0.6vmin 1.8vmin #000;
-  background-color: rgba(0, 0, 0, 0.089);
-
-
-  /* background-color: rgb(255, 255, 255); */
-}
-
-.ArticlePageNavegation:hover{
-    background-color: rgba(221, 221, 221, 0.089);
+  border-radius: 0vmin 0.9vmin 0.9vmin 0vmin ;
+  cursor: pointer;
 
 }
+
+.ArticlePageNavegationOpen{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  flex-wrap: nowrap;
+  position: fixed;
+  top:18vh;
+  left: 0%;
+  height: 70vh;
+  width: 21.6vw;
+
+  background-color: #e0e0e0;
+  box-shadow: 0.6vmin 0.6vmin 1.8vmin #000;
+  border-radius: 0vmin 0.9vmin 0.9vmin 0vmin ;
+  cursor: default;
+}
+
+
+
+.ArticlePageNavegationTitle{
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  
+  background-color: #411a75;
+  color: #fff;
+  font-size: 0vmin;
+  width: 100%;
+  border-radius: 0vmin 0.9vmin 0vmin 0vmin ;
+  font-family: Merienda;
+}
+
+.ArticlePageNavegationHover,
+.ArticlePageNavegationHoverAnimation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top:51.3vh;
+  top:18vh;
+  left: 0%;
+  height: 70vh;
+  width: 5.4vmin;
+  font-size: 1.53vw;
+  color: #fff;
+
+}
+
+
+.ArticlePageNavegationHoverAnimation{
+  opacity: 0.5;
+  /* left: 0.36vw; */
+  font-weight: 100;
+  animation: openLeftArticlePageNavegationHover 1.8s linear infinite;
+
+}
+.referenceArea{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* line-height: 4.5vh; */
+  justify-content: space-around;
+}
+
 
 .ArticlePageContent{
   display: flex;
@@ -31,12 +95,18 @@
   flex-wrap: nowrap;
 
   margin-top: 9vh;
-  margin-left: 20vw;
+  margin-left: 9vw;
   
-  width: 75vw;
+  width: 81vw;
   height: max-content;
 
   font-size: 3.6vmin;
 
 
 } 
+
+@media only screen and (max-width:720px){
+  .ArticlePageNavegationOpen{
+    width: 50vw;
+  }
+}

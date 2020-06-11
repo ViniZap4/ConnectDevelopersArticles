@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 import './TextContent.css'
+
+//import contexts
+import { useArticlePageNavigation } from '../../Contexts/Components/ArticlePageNavigation/ArticlePageNavigationContext'
+
 
 export function Title(props){
   return(
@@ -30,9 +34,36 @@ export function Text(props){
 // -------------  link reference text
 
 export function LinkReference(props){
+  const { switchControllStylePageNavigation,setSwitchControllStylePageNavigation } = useArticlePageNavigation()
+  const [styleLink, setstyleLink] = useState({})
+  const [styleIcon, setStyleIcon] = useState({})
+
+  useEffect(()=>{
+    if(switchControllStylePageNavigation){
+      setstyleLink({
+        fontSize: "2.16vmin",
+        margin: "0.6vmin 0.6vw",
+        padding: "0.6vmin 0.6vmin",
+        
+      })
+   
+    }else{
+      setstyleLink()
+      setStyleIcon()
+    }
+  },[switchControllStylePageNavigation])
+
+  function closePageNavigation(){
+    setSwitchControllStylePageNavigation(false)
+  }
+ 
   return(
-    <a href={`#${props.title}`} className="LinkReferenceText"  >
-      <span>➤</span> {props.children}
+    <a href={`#${props.title}`} 
+      onClick={closePageNavigation}
+      style={styleLink} 
+      className="LinkReferenceText"  
+    >
+      <span style={styleIcon}>➤</span> {props.children}
     </a>
   )
 }
